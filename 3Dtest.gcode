@@ -6171,7 +6171,7 @@ G1 F1500 E923.61044
 M107
 M104 S0 ; turn off temperature
 M140 S0 ; turn off bed
-G28 ; home all axes
+G28 XY; home all axes
 
 M82 ;absolute extrusion mode
 M104 S0
